@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Trispace&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Trispace', sans-serif;
+    background-color: rgba(30, 29, 29, 0.762);
+    background-image: url(../img/05.jpg);
+    background-position: center;
+   background-size: cover;
+
+}
+h1, h2, h4, p {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+}
+h5, h3 {
+    color: darkorange;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.515);
+}
+.color {    
+    color: black;
+    background-color: green;
+}
+.color1 {
+    color: black;
+    background-color: red;
+}
+.color2 {
+    background-color: black;
+}
+.logo {
+    width: 60px;
+
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.405);
+}
+.buttons {
+    min-width: 300px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+.buttons a:hover {
+    transform: scale(1.2);}
